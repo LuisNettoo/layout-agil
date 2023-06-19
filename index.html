@@ -12,12 +12,49 @@
     <p class="profile__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta harum et at fugit, nemo reprehenderit voluptatibus, veritatis praesentium facilis delectus dolor dolores illum natus sunt? Recusandae quo nihil ipsum nesciunt.</p>
     <nav>
       <ul class="profile__links">
-        <li><a href="#">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
-        <li><a href="#">Link 3</a></li>
-        <li><a href="#">Link 4</a></li>
+        <li><a href="#"><img src="images/linkedin_icon.png" alt="Link para o Linkedin"></a></li>
+        <li><a href="#"><img src="images/github_icon.png" alt="Link para o GitHub"></a></li>
+        <li><a href="#"><img src="images/twitter_icon.png" alt="Link para o Twitter"></a></li>
+        <li><a href="#"><img src="images/instagram_icon.png" alt="Link para o Instagram"></a></li>
       </ul>
     </nav>
   </aside>
+  <main class="todo">
+    <h1>Lista de Tarefas</h1>
+    <div>
+      <section>
+        <h2>Dia</h2>
+        <ul class="list-day">
+
+        </ul>
+        <button type="button" class="button-day">
+          Adicionar uma nova tarefa
+        </button>
+        <form style="display: none;" class="form-day">
+          <label for="new-task-day">Nova Tarefa:</label>
+          <input type="text" id="new-task-day">
+
+          <button type="submit">Adicionar</button>
+        </form>
+      </section>
+      <section>
+        <h2>Noite</h2>
+        <ul class="list-night">
+
+        </ul>
+        <button type="button" class="button-night">
+          Adicionar uma nova tarefa
+        </button>
+        <form style="display: none;" class="form-night">
+          <label for="new-task-night">Nova Tarefa:</label>
+          <input type="text" id="new-task-night">
+
+          <button type="submit">Adicionar</button>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
